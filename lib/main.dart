@@ -25,7 +25,7 @@ void main() {
           },
           child: ShakeWidget(
               child: Image(
-                image: NetworkImage('https://elphickpublishing.co.uk/wp-content/uploads/2021/03/depositphotos_13556034-stock-photo-shiny-diamond-isolated-on-black.jpg'),
+                image: AssetImage('images/diamond.png'),
               ),
               axisDirection: Axis.horizontal,
               shakeController: shakeController),
