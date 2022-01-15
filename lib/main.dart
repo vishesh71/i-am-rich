@@ -11,7 +11,9 @@ void main() {
 
         ),
         backgroundColor: Colors.blueGrey[400],
-        body: Center(child: Image( image:NetworkImage('https://elphickpublishing.co.uk/wp-content/uploads/2021/03/depositphotos_13556034-stock-photo-shiny-diamond-isolated-on-black.jpg'),)
+
+        //body: Center(child: Image( image:NetworkImage('https://elphickpublishing.co.uk/wp-content/uploads/2021/03/depositphotos_13556034-stock-photo-shiny-diamond-isolated-on-black.jpg'),)
+        body: Center(child: Image(image: AssetImage('images/diamond.png'),),
 
         ),
       ),
